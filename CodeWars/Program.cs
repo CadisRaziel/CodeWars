@@ -1,7 +1,5 @@
 ﻿using CodeWars;
-using CodeWars.AlgoritimosTeoriaEPratica;
-using CodeWars.CodeGolf;
-using CodeWars.Exercism;
+
 
 public class MainClass
 {
@@ -25,8 +23,8 @@ public class MainClass
         //string result = ReplaceCaracter.Replace("ABCDE");
         //Console.WriteLine(result); 
 
-        //string result = RepetirString.RepeatStr(3, "*");
-        //Console.WriteLine(result);
+        string result2 = RepetirString.RepeatStr(3, "*");
+        Console.WriteLine(result2);
 
         //string result = EntradasEsaidas.GetDrinkByProfession("scHOOl counselor");
         //Console.WriteLine(result);
@@ -113,5 +111,9 @@ public class MainClass
         //string[] arraylist = { "ExPeCteD", "AbDae" };
         //var result = CapMeAgain.CapMe(arraylist);
         //Console.WriteLine(string.Join(", ", result)); ;
+
+        ulong x = 66;
+        int result3 = DecTools.Digits(x);
+        Console.WriteLine(result3);
     }
 }
