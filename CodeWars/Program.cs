@@ -167,8 +167,5 @@ public class MainClass
 
         string result21 = CorrectDigitalize.Correct("DUBL1N");
         Console.WriteLine(result21);
-        
-        
-        //Comentario para teste
     }
 }
